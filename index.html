@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width= device-width initial-scale=1.0 user-scalable=no">
+	<title>My portfolio</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Acme">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Muli:400,600">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+	<section class="header-section" id="header">
+		<div class="header-section container">
+			<div class=" header-section-flex text">
+				<h1 style="font-weight: 600; letter-spacing: 2px; font-size: 3.5rem; margin-bottom: 5vh;">Hey There!</h1>
+				<p>I am Mahek<br/>
+					<span id="spantext">Programmer  |  Web Developer</span></p>
+				<p id="quoted">"The urge to make a difference is my potent stimulus."</p>
+			</div>
+			<img class="header-section-flex img" id= "header-image" src="mahek.jpg" alt="This is me">
+		</div>
+	</section>
+
+	<div class="menu">
+		<nav class="menu container">
+			<h2 id="know-me">Know me</h2>
+			<a href="#about">About</a>
+			<a href="#skills">Skills</a>
+			<a href="#project">Projects</a>
+			<a href="#contact">Contact me</a>
+		</nav>
+	</div>
+
+	<nav class="dropdown menu">
+		<span href="" id="know-me-2">Know Me</span>
+		<div id="hidden-flex">
+			<a href="#about">About</a>
+			<a href="#skills">Skills</a>
+			<a href="#project">Projects</a>
+			<a href="#contact">Contact me</a>
+		</div>
+	</nav>
+
+	<section class="about main" id="about">
+		<h2 class="about heading">ABOUT ME</h2>
+		<p class="about mini-heading">A few words about me!!</p>
+		<div class="about content">
+			<p>Hi! I am <b>Mahek Sengar</b>, currently pursuing my Bachelor's in Computer Science Engineering (Expected 2020), from Bhopal, India.
+				I am making headway on the road to becoming a <b>Full-Stack Web Developer.</b>
+			</p>
+			<ul class="about-me-list">
+				<li style="font-weight: 700;">DOB:<br/><span class="info">02-09-1997</span></li>
+				<li style="font-weight: 700;">Address:<br/><span class="info">Rachna Nagar, Bhopal, India</span></li>
+				<li style="font-weight: 700;">E-mail address:<br/><span class="info">maheksengar@gmail.com</span></li>
+			</ul>
+		</div>
+	</section>
+
+
+
+	<section class="main skills" id="skills">
+		<h1 class="skills heading" > MY SKILLS </h1>
+		<p class="skills mini-heading">A few words about me!!</p>
+		<div class="skills content">
+			<div style="text-align: center;"><span class="skill-title">SKILLS</span>
+				<div class="good"> 
+					<div><i class="far fa-file-code fa-2x" style="color: #15aabf;"></i><br/> C++</div>
+					<div><i class="fab fa-python fa-2x" style="color: #15aabf;"></i><br/> Python</div>
+					<div><i class="fab fa-js-square fa-2x" style="color: #15aabf;"></i><br/> Javascript</div>
+					<div><i class="fab fa-html5 fa-2x" style="color: #15aabf;"></i><br/> HTML</div>
+					<div><i class="fab fa-css3-alt fa-2x" style="color: #15aabf;"></i><br/> CSS</div>
+					<div><i class="fas fa-pen-fancy fa-2x" style="color: #15aabf;"></i><br/> Content Writing</div>
+				</div>
+			</div>
+			<div style="text-align: center;"><span class="skill-title">HOBBIES</span>
+				<div class="hobbies">
+					<div><i class="fas fa-book-open fa-2x" style="color: #15aabf;"></i><br/>Reading</div>
+					<div><i class="fas fa-pen fa-2x" style="color: #15aabf;"></i><br/>Writing</div>
+					<div><i class="fas fa-music fa-2x" style="color: #15aabf;"></i><br/>Music</div>
+					<div><i class="fas fa-laptop-code fa-2x" style="color: #15aabf;"></i><br/>Coding</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	 
+	<section id="for-bg-img">
+		 <div class="main project" id="project">
+			<h1 class="project heading"> MY PROJECTS </h1>
+			<p class="project mini-heading">See my work</p>
+			<div class="project content">
+				<div id="project-1">
+					<h3><i class="fas fa-laptop"></i> Project-1:</h3>
+					<a href="">My Portfolio Website</a>
+				</div>
+			</div>
+			<p style="font-size: 1.5rem;">For more info, you can visit my  <a href="" style="text-decoration: none; color: #008b8b;"><i class="fab fa-github"></i>Github  Repository</a></p>
+		</div>
+	</section>
+
+	
+
+		<section class= "main contact" id="contact" style="margin-top: 0;">
+			<h1 class="contact heading"> CONTACT </h1>
+			<p class="contact mini-heading">Get in touch with me!!</p>
+			<div class="contact content">
+				<div class="form-container">
+					<p>Send me a message:</p>
+					<form action="#" method="post">
+						<div class="form-group">
+							<input type="text" class="form-control" id="name" name="name" placeholder="Full name" required="">
+						</div>
+
+						<div class="form-group">
+							<input type="E-mail" class="form-control" name="E-mail" id="email" placeholder="E-mail Address" required="">
+						</div>
+
+						<div class="form-group">
+							<textarea class="form-control" rows="5" id="message" placeholder="Message" required=""></textarea>
+						</div>
+
+						<button class="form-control" type="submit" id="btn">Send Message</button>
+					</form>
+				</div>
+
+				<div class="social-media-container">
+					<p>Connect with me:</p>
+					<div id="social-media">
+						<div class="facebook icon">
+							<a href="https://www.facebook.com/mahek.sengar3"><i class="fab fa-facebook fa-2x" style="color: #15aabf"></i></a>
+						</div>
+						<div class="instagram icon">
+							<a href="https://www.instagram.com/mahek_sengar/"><i class="fab fa-instagram fa-2x" style="color: #15aabf"></i></a>
+						</div>
+						<div class="linkedin icon">
+							<a href="https://www.linkedin.com/in/mahek-sengar-0233b4138/"><i class="fab fa-linkedin fa-2x" style="color: #15aabf"></i></a>
+						</div>
+						<div class="twitter icon">
+							<a href=""> <i class="fab fa-twitter fa-2x" style="color: #15aabf"></i></a>
+						</div>
+					</div>
+					<p style="margin-top: 10vh;">Or drop a mail at:<br><a href="mailto: maheksengar@gmail.com" style="color: #15aabf; font-size:0.8em; text-decoration: none;"><i class="fas fa-envelope"></i> maheksengar@gmail.com</a></p>
+				</div>
+		</section>
+
+
+	<footer>
+		<a href="#header"><i class="fas fa-angle-double-up fa-2x" style="color: #14a5b8;"></i></a>
+		<p>Thanks for visiting my site!</p>
+		<p>Made with <i class="fas fa-heart" style="color: #ffffff;"></i> in India</p>
+	</footer>
+</body>
+</html>
