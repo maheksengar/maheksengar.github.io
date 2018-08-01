@@ -354,10 +354,18 @@ b{
 	font-weight: 500;
 	display: block;
 	border: 1px solid #15aabf;
+	transition-delay: 0.2s;
+}
+
+.form-control:focus{
+	font-size: 1.3rem;
+	box-shadow: 2px 2px 4px #15aabf;
 }
 
 #btn{
 	cursor: pointer;
+	transition-duration: 0.5s;
+	transition-delay: 0.2s;
 }
 
 
@@ -372,7 +380,13 @@ b{
 
 .icon{
 	margin:1.5vh 1.2vw;
+	transition-delay:0.2s;
+	transition-duration:0.5s;
 
+}
+
+.icon:hover{
+	box-shadow: -2px 2px 5px #15aabf;
 }
 
  footer {
