@@ -1,3 +1,3 @@
 # maheksengar.github.io
 
-my personal portfolio websit
+My personal portfolio website made from scratch. 
